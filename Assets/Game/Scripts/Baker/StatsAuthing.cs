@@ -3,6 +3,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using Unity.Entities;
 using Game.Utils;
+using System.Collections.Generic;
 
 namespace Game.Authing
 {
