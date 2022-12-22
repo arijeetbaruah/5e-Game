@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -228747253, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
-  m_Name: OdinModuleConfig
+  m_Script: {fileID: 11500000, guid: 62827e8480552ac4e8f7d0217a014f39, type: 3}
+  m_Name: Character Stats Config
   m_EditorClassIdentifier: 
-  configurations:
-  - ID: Unity.Mathematics
-    ActivationSettings: 0
-  - ID: Unity.Entities
-    ActivationSettings: 0
-  ModuleTogglingSettings: 1
-  ModuleUpdateSettings: 0
+  skillRegistory:
+    keyData:
+    - Acrobatics
+    - Animal Handling
+    - Arcana
+    valueData: 010000000400000003000000
