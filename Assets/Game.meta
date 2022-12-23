@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Game.meta
 guid: d9a9267d760881742ab6f60a00bc5528
+========
+guid: dd8bdb612e968564593ada1b1c00ff59
+>>>>>>>> f109cbb (spell scripts):Assets/Game/Resources.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
