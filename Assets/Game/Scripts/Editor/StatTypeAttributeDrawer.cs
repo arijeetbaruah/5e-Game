@@ -6,6 +6,9 @@ using UnityEngine;
 
 namespace Game.Utils.Editor
 {
+    /// <summary>
+    /// Attribute Drawer for Stat Type
+    /// </summary>
     public class StatTypeAttributeDrawer : OdinAttributeDrawer<StatTypeAttribute, string>
     {
         protected override void DrawPropertyLayout(GUIContent label)

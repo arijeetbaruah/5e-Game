@@ -5,9 +5,18 @@ using UnityEngine;
 
 namespace Game.Utils
 {
+    /// <summary>
+    /// UnitySerializedDictionary for Dictionary
+    /// </summary>
+    /// <inheritdoc cref="UnitySerializedDictionary{string, StatType}"/>
     [Serializable]
     public class StatTypeScriptableObjectDictionary : UnitySerializedDictionary<string, StatType> { }
 
+    /// <summary>
+    /// Base class to create Unity Serialized Dictionary
+    /// </summary>
+    /// <typeparam name="TKey">key type</typeparam>
+    /// <typeparam name="TValue">value type</typeparam>
     public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue>, ISerializationCallbackReceiver
     {
         [SerializeField, HideInInspector]

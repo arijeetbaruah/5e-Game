@@ -2,11 +2,12 @@ using Game.Component;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using Unity.Entities;
-using Game.Utils;
-using System.Collections.Generic;
 
 namespace Game.Authing
 {
+    /// <summary>
+    /// Authing for Stats
+    /// </summary>
     public class StatsAuthing : MonoBehaviour
     {
         [TabGroup("Base Stats")]
@@ -16,6 +17,10 @@ namespace Game.Authing
         public int proficiency;
     }
 
+    /// <summary>
+    /// Baker for StatsAuthing
+    /// </summary>
+    /// <inheritdoc cref="Bake(StatsAuthing)"/>
     public class StatsBaker : Baker<StatsAuthing>
     {
         public override void Bake(StatsAuthing authoring)
