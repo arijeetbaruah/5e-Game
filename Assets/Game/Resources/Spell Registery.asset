@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae447542fb00f14490e3b7ed328e1cf, type: 3}
   m_Name: Spell Registery
   m_EditorClassIdentifier: 
+  spellRegistry:
+    keyData:
+    - evo_firebolt
+    valueData:
+    - {fileID: 11400000, guid: eadd1a0ec9c337d44845367309754d7f, type: 2}
