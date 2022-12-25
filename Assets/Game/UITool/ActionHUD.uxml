@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
+        <ui:VisualElement style="flex-grow: 0; background-color: rgb(255, 128, 128); align-self: stretch; align-items: center; justify-content: space-between; height: 80px; position: relative; flex-direction: row;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MsgTxt" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: stretch; justify-content: center; align-self: flex-end; flex-direction: row; margin-top: 20px; margin-bottom: 15px; margin-right: 20px;">
+                    <ui:Button text="Attack" display-tooltip-when-elided="true" name="AttackBtn" style="text-overflow: ellipsis; -unity-text-align: middle-center;" />
+                    <ui:Button text="Heal" display-tooltip-when-elided="true" name="HealBtn" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
