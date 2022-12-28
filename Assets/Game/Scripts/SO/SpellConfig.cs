@@ -15,7 +15,7 @@ namespace Game.SO
         public int spellLevel = 0;
         [Searchable]
         public SpellSchools school;
-        [TextArea]
+        [TextArea, MultiLineProperty(10), HideLabel, Title("description", bold: false)]
         public string description;
     }
 }
