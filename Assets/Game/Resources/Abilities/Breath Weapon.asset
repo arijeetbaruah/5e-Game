@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d0e23458a3d0441a81cf79d482f3c2, type: 3}
+  m_Name: Breath Weapon
+  m_EditorClassIdentifier: 
+  abilityID: breath_weapon_fire
+  abilityName: Breath Weapon (Fire)
+  description: 'You can use your action to exhale destructive energy. Your draconic
+    ancestry determines the size, shape, and damage type of the exhalation.
+
+    When
+    you use your breath weapon, each creature in the area of the exhalation must
+    make a saving throw, the type of which is determined by your draconic ancestry.
+    The DC for this saving throw equals 8 + your Constitution modifier + your proficiency
+    bonus. A creature takes 2d6 damage on a failed save, and half as much damage
+    on a successful one.'
+  damageDie:
+    count: 2
+    face: 6
